@@ -1,0 +1,112 @@
+.possibility{
+    margin: 1rem 3rem;
+    padding: 3rem;
+    background-color: var(--color-blog);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family);
+    
+}
+.wgpt3{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    font-family: var(--font-family);
+    flex: 1 1 0;
+    /* border: 1px solid red; */
+    margin-bottom: 3rem;
+}
+.wgpt3__title{
+    margin-right: 10rem;
+    /* border: 1px solid red; */
+}
+.wgpt3__title h2{
+    width: 100%;
+    color: #fff;
+    font-size: 22px;
+    white-space: nowrap;
+    min-width: 100px;
+    width: 40%;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.wgpt3__desc{
+    flex: 1;
+    width: 100%;
+    /* border: 1px solid red; */
+    min-width: 200px;
+}
+.wgpt3__desc p{
+    color:var(--color-text)
+    ;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    
+}
+
+.line{
+    width: 38px;
+    height: 3px;
+    background: var(--gradient-bar);
+    margin-bottom: 0.5rem;
+
+}
+.possibility__heading{
+    
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+.possibility__heading h2{
+    font-size: 25px;
+    margin-right: 2rem;
+}
+.possibility__heading p{
+    font-size: 16px;
+    margin-right: 2rem;
+    
+   
+}
+.gradient__text--small{
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    --webkit-background-clip: text;
+    --webkit-text-fill-color: transparent;
+}
+
+
+.gpt3__content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.gpt3__card{
+    margin : 0 1rem 1rem 0rem;
+    width: 100%;
+    max-width: 200px;
+    color: #fff;
+    /* border: 1px solid red; */
+    margin-bottom: 2.5rem;
+}
+.card__title{
+    margin-bottom: 1rem;
+}
+.card__title h2{
+    font-size: 22px;
+    font-weight: 500;
+
+}
+.card__desc p{
+    font-size: 16px;
+    font-weight: 300;
+    color:var(--color-text)
+    ;
+    line-height: 25px;
+}
