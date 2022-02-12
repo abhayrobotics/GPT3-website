@@ -1,5 +1,5 @@
 .possibility{
-    margin: 1rem 3rem;
+    margin: 2rem 6rem;
     padding: 3rem;
     background-color: var(--color-blog);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -90,7 +90,7 @@
 .gpt3__card{
     margin : 0 1rem 1rem 0rem;
     width: 100%;
-    max-width: 200px;
+    max-width: 250px;
     color: #fff;
     /* border: 1px solid red; */
     margin-bottom: 2.5rem;
@@ -109,4 +109,17 @@
     color:var(--color-text)
     ;
     line-height: 25px;
+}
+@media screen and (max-width:650px) {
+    .possibility{
+        margin: 2rem 3rem;
+    }
+    
+}
+@media screen and (max-width:450px) {
+    .possibility{
+        margin: 2rem 1rem;
+        padding: 2rem 1rem;
+    }
+    
 }
