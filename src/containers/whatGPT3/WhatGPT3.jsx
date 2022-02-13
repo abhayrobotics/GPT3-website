@@ -5,7 +5,7 @@ import possibiltyimg  from '../../assets/possibility.png';
 const WhatGPT3 = () => {
   return (
       <div>
-         <div className="wgpt3__context">
+         <div className="wgpt3__context" id="possibility">
 
            <div className="wgpt3__img">
              <img src={possibiltyimg} alt="image" />

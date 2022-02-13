@@ -1,0 +1,109 @@
+.gpt3__blog{
+    display: flex;
+    font-family: var(--font-family);
+    flex-direction: column;
+    margin: 2rem 4rem 2rem 6rem;;
+}
+.blog__heading{
+    font-size: 24px;
+    margin: 3rem 0 2rem 0;
+}    
+.blog__heading h2{
+    font-weight: 900;
+
+}
+
+
+.blog__grid{
+    display: grid;
+    grid-template-areas: 'blog01 blog02 blog03'
+                            'blog01 blog04 blog05';
+    
+}
+
+.blog01{
+    grid-area: blog01;
+}
+.blog02{
+    grid-area: blog02;
+}
+.blog03{
+    grid-area: blog03;
+}
+.blog04{
+    grid-area: blog04;
+}
+.blog05{
+    grid-area: blog05;
+}
+
+.blog__card{
+    margin: 0 2rem 2rem 0;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    background-color: var(--color-blog);
+    display: flex;
+    flex-direction: column;
+}
+.blog__card img{
+    max-width: 100%;
+}
+
+
+.blog__text{
+    color: #fff;
+    margin: 1rem;
+}
+.blog__date{
+    font-size: 16px;
+    margin: 1rem 0rem;
+}
+
+.blog__text .heading{
+    font-size: 18px;
+    margin: 0.5rem 0;
+}
+.read-more{
+    color: var(--color-text);
+    font-size: 16px;
+    margin: 1rem;
+    cursor: pointer;
+}
+.blog01 .read-more{
+    margin-top: 2rem;
+
+}
+
+@media screen and (max-width:850px){
+    .blog__grid{
+        grid-template-areas: 'blog01 blog02 '
+                            'blog01 blog03 '
+                            'blog04 blog05';
+        }
+}
+@media screen and (max-width:650px){
+
+    .gpt3__blog{
+        margin: 2rem 2rem;
+    }
+}
+@media screen and (max-width:550px){
+
+    
+    .blog__grid{
+        grid-template-areas: 'blog01  '
+                            'blog02 '
+                            'blog03 '
+                            'blog04'
+                            'blog05';
+        }
+        
+    .blog__card{
+        margin: 0 0rem 2rem 0;
+    }
+}
+@media screen and (max-width:450px){
+    .gpt3__blog{
+        margin: 2rem 1rem;
+    }
+}

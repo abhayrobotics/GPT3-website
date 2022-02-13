@@ -4,7 +4,7 @@ import './possibility.css'
 const Possibilty = () => {
   return (
       <div>
-          <div className="possibility">
+          <div className="possibility" id="wgpt3">
 
             <div className="line"></div>
             <div className="wgpt3">

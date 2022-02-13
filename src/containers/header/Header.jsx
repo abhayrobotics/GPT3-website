@@ -6,7 +6,7 @@ import people from '../../assets/people.png'
 const Header = () => {
   return (
     <div>
-      <div className="header">
+      <div className="header" id="home">
         <div className="header__hero">
 
           <div className="header_hero-text ">
@@ -20,7 +20,7 @@ const Header = () => {
 
           <div className="header__email">
             <input type="email" placeholder='Your Email Address '/>
-            <button className="email__button">Get Started</button>
+            <button className="email__button" id='cta'>Get Started</button>
           </div>
 
           <div className="header__people">
